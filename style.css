@@ -1,45 +1,16 @@
 *{
   margin: 0px;
   padding: 0px;
-  font-family: 'Poppins', sans-serif;
 }
 body{
   height: 100vh;
-  width: 100%;
-  background-image: url(img/abstract-equalizer-particles-wave-background_52683-27673.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-
-}
-nav{
+  width: 100vw;
   display: flex;
-  padding: 2% 6%;
-  justify-content: space-between;
   align-items: center;
+  justify-content: center;
 }
-h1{
-  font-size: 30px;
-  color: white;
-  font-weight: 700;
-}
-.a-menu{
-  flex: 1;
-  text-align: right;
-}
-.a-menu ul li{
-  list-style: none;
-  display: inline-block;
-  padding: 8px 22px;
-  position: relative;
-}
-.a-menu ul li a{
-  text-decoration: none;
-  font-size: 20px;
-  color: aliceblue;
-}
-.a-menu ul li:hover{
-  background-color: cornflowerblue;
-  border-radius: 20px;
-  padding: 10px 40px;
+.login-from{
+  width: 300px;
+  height: 500px;
+  background: rgb(240, 231, 231);
 }
