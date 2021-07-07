@@ -8,9 +8,78 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
+  background: #ecf0f3;
 }
 .login-from{
   width: 300px;
   height: 500px;
-  background: rgb(240, 231, 231);
+  background: #ecf0f3;
+  border-radius: 10px;
+  box-shadow:10px 10px 10px  #cbced1, -10px -10px 15px white;
+}
+.logo{
+  text-align: center;
+}
+.logo h1{
+  display: inline-block;
+  margin-top: 60px;
+  padding: 8px 15px;
+  border-radius: 20px;
+  box-shadow: inset 5px 5px 0px #cbced1, inset -5px -5px 0px #cbced1;
+}
+.logo h1 span{
+  color: red;
+}
+.logo p{
+  margin-top: 30px;
+  letter-spacing: 3px;
+}
+.user-pass{
+  margin: 45px;
+}
+.username{
+  margin-bottom: 30px;
+  border-radius: 20px;
+  box-shadow: inset 8px 8px 15px  #cbced1, inset -10px -10px 15px white;
+}
+.username input{
+  background: none;
+  border: none;
+  outline: none;
+  color: #0645f5;
+  padding: 12px;
+}
+.password{
+  margin-bottom: 30px;
+  border-radius: 20px;
+  box-shadow: inset 8px 8px 5px  #cbced1, inset -8px -8px 5px white;
+}
+.password input{
+  background: none;
+  border: none;
+  outline: none;
+  color: #0645f5;
+  padding: 12px;
+}
+.btn{
+ border: none;
+ outline: none;
+ cursor: pointer;
+ width: 100%;
+ height: 50px;
+ background: red;
+ color: white;
+ border-radius: 20px;
+}
+.forget{
+  letter-spacing: 2px;
+  text-align: center;
+}
+.forget .one{
+  cursor: pointer;
+  color: red;
+}
+.forget .two{
+  cursor: pointer;
+  color: red;
 }
